@@ -96,7 +96,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/masuk"
                 android:layout_width="308dp"
                 android:layout_height="62dp"
                 android:layout_marginStart="37dp"

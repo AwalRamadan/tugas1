@@ -35,5 +35,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(open);
             }
         });
+
+        this.findViewById(R.id.masuk).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent packageContext = new Intent();
+                Intent open = new Intent(MainActivity.this, halutama.class);
+                startActivity(open);
+            }
+        });
+
     }
 }
